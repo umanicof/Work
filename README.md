@@ -1,5 +1,5 @@
 # Work
-就職活動のための提出ソースコードです。一時的に公開しています。  
+参考用のソースコードです。一時的に公開しています。  
 ポートフォリオ：https://game-creators.camp/@umanicof
 
 * NkfLib  
