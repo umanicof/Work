@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e99d7583-1f3f-4597-9ba0-aac38d75f5d1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NkfLib</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Behaviours\TextBoxBehaviors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\BitmapImageCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Controls\Arc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Controls\FastCanvas.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Controls\Selectable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Controls\TouchScrollViewer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\Base64BitmapConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\Base64BitmapMultiConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\ThicknessComputeConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\DoubleThicknessConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\ColorBrushConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\BoolBrushConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\BoolVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\ClampConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\ComposingConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\DateTimeStringConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\DirectoryExistConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\FontFamilyNameConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\FontStyleBoolConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\FontWeightBoolConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\IsEqualParameterConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\MathCompareConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\MathConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\MathVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\NarrowConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\NegationConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\NullObjectConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\ObjectBoolConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\StringBoolConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\StringContainsConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\StringIsNotNullOrEmptyConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\StringIsNullOrEmptyConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\StringVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Converters\ToSentenceCaseConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Enums\FormatType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\ButtonExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\ColorExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\PointExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\RectRectangleExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\UIElementExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\FrameworkElementExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\RepeatButtonExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\EventToObservableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\SizeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extentions\UIElementCollectionExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\HotKeyRegister.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\MediaPlayerWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\ScreenCapture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\Base64Util.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\KeyboardUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\UIElementUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\AnimationUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Windows\FixedAspectWindow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\_Setting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\BitmapUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\FileIOUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Source\" />
+  </ItemGroup>
+</Project>

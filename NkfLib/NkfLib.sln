@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_NkfLib.Core", "_NkfLib.Core\_NkfLib.Core.csproj", "{6E1D1FA1-1C0D-4248-A1A5-2F763ECCB455}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_NkfLib.Windows", "_NkfLib.Windows\_NkfLib.Windows.csproj", "{656426EE-C4BF-416D-B1FF-34E4DC518B23}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NkfLib", "NkfLib\NkfLib.shproj", "{1BE11261-6645-49D9-9496-1A9D725087CD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NkfLib.Windows", "NkfLib.Windows\NkfLib.Windows.shproj", "{E99D7583-1F3F-4597-9BA0-AAC38D75F5D1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NkfLib.Windows.FontLoader", "NkfLib.Windows.FontLoader\NkfLib.Windows.FontLoader.shproj", "{CD450318-605B-4AF6-9E4B-ED35E5C7D371}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_NkfLib.Windows.FontLoader", "_NkfLib.Windows.FontLoader\_NkfLib.Windows.FontLoader.csproj", "{08CB2CFE-8D74-4B99-BD72-DDAF9D2065BB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NkfLib.Windows.NAudio", "NkfLib.Windows.NAudio\NkfLib.Windows.NAudio.shproj", "{44FD1427-3F33-4E2E-940B-EA731F99B869}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_NkfLib.Windows.NAudio", "_NkfLib.Windows.NAudio\_NkfLib.Windows.NAudio.csproj", "{629790BE-BAA4-426B-84C2-76FD8609ED08}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NkfLib.Windows10", "NkfLib.Windows10\NkfLib.Windows10.shproj", "{C273A5C7-104D-4032-B9C1-32BC627D5670}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_NkfLib.Windows10", "_NkfLib.Windows10\_NkfLib.Windows10.csproj", "{4FE034D1-07D3-4011-83ED-BFB90E8A5BF7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NkfLib.DeepL", "NkfLib.DeepL\NkfLib.DeepL.shproj", "{E878D75D-CC61-480C-BAB1-130C5D94D29B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_NkfLib.DeepL", "_NkfLib.DeepL\_NkfLib.DeepL.csproj", "{63316B3C-B56E-492B-8D58-C7652F5D5410}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NkfLib.Unity", "NkfLib.Unity\NkfLib.Unity.shproj", "{D1EF87E6-28D8-41DD-B4A3-5F17E72A38F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_NkfLib.Unity", "_NkfLib.Unity\_NkfLib.Unity.csproj", "{0E105B91-4E03-4E3D-A22A-B45CDEB0F984}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{D154C895-6AD7-4994-80E2-44C5AD034767}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_NkfLib", "_NkfLib\_NkfLib.csproj", "{7A6C2588-34C0-43A7-AE6E-D6C4FB461678}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NkfLib.Core", "NkfLib.Core\NkfLib.Core.shproj", "{EA0991FE-F91C-45F6-91DC-161AB2DB226D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E1D1FA1-1C0D-4248-A1A5-2F763ECCB455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1D1FA1-1C0D-4248-A1A5-2F763ECCB455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1D1FA1-1C0D-4248-A1A5-2F763ECCB455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1D1FA1-1C0D-4248-A1A5-2F763ECCB455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656426EE-C4BF-416D-B1FF-34E4DC518B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656426EE-C4BF-416D-B1FF-34E4DC518B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656426EE-C4BF-416D-B1FF-34E4DC518B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656426EE-C4BF-416D-B1FF-34E4DC518B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CB2CFE-8D74-4B99-BD72-DDAF9D2065BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CB2CFE-8D74-4B99-BD72-DDAF9D2065BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CB2CFE-8D74-4B99-BD72-DDAF9D2065BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CB2CFE-8D74-4B99-BD72-DDAF9D2065BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629790BE-BAA4-426B-84C2-76FD8609ED08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629790BE-BAA4-426B-84C2-76FD8609ED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629790BE-BAA4-426B-84C2-76FD8609ED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629790BE-BAA4-426B-84C2-76FD8609ED08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE034D1-07D3-4011-83ED-BFB90E8A5BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE034D1-07D3-4011-83ED-BFB90E8A5BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE034D1-07D3-4011-83ED-BFB90E8A5BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE034D1-07D3-4011-83ED-BFB90E8A5BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63316B3C-B56E-492B-8D58-C7652F5D5410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63316B3C-B56E-492B-8D58-C7652F5D5410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63316B3C-B56E-492B-8D58-C7652F5D5410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63316B3C-B56E-492B-8D58-C7652F5D5410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E105B91-4E03-4E3D-A22A-B45CDEB0F984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E105B91-4E03-4E3D-A22A-B45CDEB0F984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E105B91-4E03-4E3D-A22A-B45CDEB0F984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E105B91-4E03-4E3D-A22A-B45CDEB0F984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6C2588-34C0-43A7-AE6E-D6C4FB461678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6C2588-34C0-43A7-AE6E-D6C4FB461678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6C2588-34C0-43A7-AE6E-D6C4FB461678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6C2588-34C0-43A7-AE6E-D6C4FB461678}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8584E23-9969-40AC-A7B8-EFCD05D92581}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NkfLib.Core\NkfLib.Core.projitems*{08cb2cfe-8d74-4b99-bd72-ddaf9d2065bb}*SharedItemsImports = 5
+		NkfLib.Windows.FontLoader\NkfLib.Windows.FontLoader.projitems*{08cb2cfe-8d74-4b99-bd72-ddaf9d2065bb}*SharedItemsImports = 5
+		NkfLib.Windows\NkfLib.Windows.projitems*{08cb2cfe-8d74-4b99-bd72-ddaf9d2065bb}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{08cb2cfe-8d74-4b99-bd72-ddaf9d2065bb}*SharedItemsImports = 5
+		NkfLib.Unity\NkfLib.Unity.projitems*{0e105b91-4e03-4e3d-a22a-b45cdeb0f984}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{0e105b91-4e03-4e3d-a22a-b45cdeb0f984}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{1be11261-6645-49d9-9496-1a9d725087cd}*SharedItemsImports = 13
+		NkfLib.Windows.NAudio\NkfLib.Windows.NAudio.projitems*{44fd1427-3f33-4e2e-940b-ea731f99b869}*SharedItemsImports = 13
+		NkfLib.Core\NkfLib.Core.projitems*{4fe034d1-07d3-4011-83ed-bfb90e8a5bf7}*SharedItemsImports = 5
+		NkfLib.Windows10\NkfLib.Windows10.projitems*{4fe034d1-07d3-4011-83ed-bfb90e8a5bf7}*SharedItemsImports = 5
+		NkfLib.Windows\NkfLib.Windows.projitems*{4fe034d1-07d3-4011-83ed-bfb90e8a5bf7}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{4fe034d1-07d3-4011-83ed-bfb90e8a5bf7}*SharedItemsImports = 5
+		NkfLib.Core\NkfLib.Core.projitems*{629790be-baa4-426b-84c2-76fd8609ed08}*SharedItemsImports = 5
+		NkfLib.Windows.NAudio\NkfLib.Windows.NAudio.projitems*{629790be-baa4-426b-84c2-76fd8609ed08}*SharedItemsImports = 5
+		NkfLib.Windows\NkfLib.Windows.projitems*{629790be-baa4-426b-84c2-76fd8609ed08}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{629790be-baa4-426b-84c2-76fd8609ed08}*SharedItemsImports = 5
+		NkfLib.DeepL\NkfLib.DeepL.projitems*{63316b3c-b56e-492b-8d58-c7652f5d5410}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{63316b3c-b56e-492b-8d58-c7652f5d5410}*SharedItemsImports = 5
+		NkfLib.Core\NkfLib.Core.projitems*{656426ee-c4bf-416d-b1ff-34e4dc518b23}*SharedItemsImports = 5
+		NkfLib.Windows\NkfLib.Windows.projitems*{656426ee-c4bf-416d-b1ff-34e4dc518b23}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{656426ee-c4bf-416d-b1ff-34e4dc518b23}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{6e1d1fa1-1c0d-4248-a1a5-2f763eccb455}*SharedItemsImports = 5
+		NkfLib\NkfLib.projitems*{7a6c2588-34c0-43a7-ae6e-d6c4fb461678}*SharedItemsImports = 5
+		NkfLib.Windows10\NkfLib.Windows10.projitems*{c273a5c7-104d-4032-b9c1-32bc627d5670}*SharedItemsImports = 13
+		NkfLib.Windows.FontLoader\NkfLib.Windows.FontLoader.projitems*{cd450318-605b-4af6-9e4b-ed35e5c7d371}*SharedItemsImports = 13
+		NkfLib.Unity\NkfLib.Unity.projitems*{d1ef87e6-28d8-41dd-b4a3-5f17e72a38f2}*SharedItemsImports = 13
+		NkfLib.DeepL\NkfLib.DeepL.projitems*{e878d75d-cc61-480c-bab1-130c5d94d29b}*SharedItemsImports = 13
+		NkfLib.Windows\NkfLib.Windows.projitems*{e99d7583-1f3f-4597-9ba0-aac38d75f5d1}*SharedItemsImports = 13
+		NkfLib.Core\NkfLib.Core.projitems*{ea0991fe-f91c-45f6-91dc-161ab2db226d}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <Import Project="..\NkfLib\NkfLib.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib.Windows\NkfLib.Windows.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib.Core\NkfLib.Core.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib.Windows10\NkfLib.Windows10.projitems" Label="Shared" />
+
+  <ItemGroup>
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="ReactiveProperty" Version="9.8.0" />
+  </ItemGroup>
+
+</Project>

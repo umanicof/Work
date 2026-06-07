@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d1ef87e6-28d8-41dd-b4a3-5f17e72a38f2</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NkfLib.Unity</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Timer\SimpleTimer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Algorithm\PathFinding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Animation\DOTweenEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Animation\Easing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Animation\EmissionBlink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Animation\FadeParticleEmission.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Animation\ParticleEmittionAudio.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\container\SerializedDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\EditorHelper\EnumIndexAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\EditorHelper\FileNameDrawer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\LineRendererExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\AudioSourceExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Timer\TimerHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Transform\AutoMove.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Transform\AutoRotate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Common.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\CrushReciever.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Debugger\CollideTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Debugger\FPSCounter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Debugger\InputLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Debugger\ProcessingTimeTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Transform\DirectionTransform.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\DontDestroyOnLoadComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\DrawTexture2D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\BoundsExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\BoxColliderExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\CapsuleColliderExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\ColliderExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\ComponentExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\EnumExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\FloatExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\ListExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\MaterialExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\RectExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\SphereColliderExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\TransformExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\Vector2Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\Vector3Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Transform\LookAtPoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\DontDestroyOnLoad.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\IPooledObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\ListingMonoBehaviour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\ObjectPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\ObjectPoolWrap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\SingleMonoBehaviour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Object\StaticHolder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Scene\InitializeSceneAutoLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Scene\SceneBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Shape\Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Shape\Quadrangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Shape\RotationRect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Shape\Segment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\String\MessageString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\String\SimpleLocalizedString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Timer\UpdateTimer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Transform\LookAtTarget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Transform\RectRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Transform\TransformCommunicater.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\UI\BillboardUI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\UI\GaugeController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\UI\SoundSlider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Util\Operations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Util\Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)NkfLib.Unity.asmdef" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Source\Container\" />
+  </ItemGroup>
+</Project>

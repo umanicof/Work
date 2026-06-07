@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c273a5c7-104d-4032-b9c1-32bc627d5670</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NkfLib.Windows10</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Sourse\Extentions\RectRectangleExtention.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sourse\Extentions\AsyncOperationExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sourse\Utils\BitmapUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sourse\WindowsOcr.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Sourse\" />
+  </ItemGroup>
+</Project>

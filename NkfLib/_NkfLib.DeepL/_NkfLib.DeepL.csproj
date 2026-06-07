@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- <TargetFramework>net5.0</TargetFramework> -->
+	<TargetFramework>netstandard2.1</TargetFramework>
+	<LangVersion>9</LangVersion>
+  </PropertyGroup>
+
+  <Import Project="..\NkfLib\NkfLib.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib.DeepL\NkfLib.DeepL.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="ReactiveProperty" Version="9.8.0" />
+    <PackageReference Include="System.Dynamic.Runtime" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Remove="**\package.json" />
+	<None Remove="**\*.asmdef" />
+	<None Remove="**\*.meta" />
+    <Reference Include="DeepL">
+      <HintPath>..\..\deepl-dotnet\source\DeepL\bin\Debug\netstandard2.0\DeepL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

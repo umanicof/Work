@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\NkfLib\NkfLib.projitems" Label="Shared" />
+
+  <ItemGroup>
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+	<PackageReference Include="ReactiveProperty" Version="9.8.0" />
+  </ItemGroup>
+
+</Project>

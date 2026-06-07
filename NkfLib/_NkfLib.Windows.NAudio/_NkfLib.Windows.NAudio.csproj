@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <Import Project="..\NkfLib\NkfLib.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib.Windows.NAudio\NkfLib.Windows.NAudio.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib.Windows\NkfLib.Windows.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib.Core\NkfLib.Core.projitems" Label="Shared" />
+
+  <ItemGroup>
+	<PackageReference Include="NAudio" Version="2.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="ReactiveProperty" Version="9.8.0" />
+  </ItemGroup>
+
+</Project>

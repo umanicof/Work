@@ -1,0 +1,10 @@
+{
+  "name": "umanicof.nkflib.deepl",
+  "version": "1.0.0",
+  "displayName": "NkfLib.DeepL",
+  "description": "NkfLib.DeepL",
+  "unity": "2022.1",
+  "dependencies": {
+    "umanicof.nkflib": "1.0.0"
+  }
+}

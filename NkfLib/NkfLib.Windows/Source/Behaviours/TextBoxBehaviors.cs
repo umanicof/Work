@@ -1,0 +1,76 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.Windows;
+using System.Windows.Controls;
+using System.Diagnostics;
+
+namespace NkfLib
+{
+    public static class TextBoxExtentions
+    {
+        public static void ToStringFields(this TextBox obj)
+        {
+        }
+
+    }
+
+    public class TextBoxBehaviors
+    {
+
+        [AttachedPropertyBrowsableForType(typeof(TextBox))]
+        public static bool GetIsFocusSelect(DependencyObject obj)
+        {
+            return (bool)obj.GetValue(IsFocusSelectProperty);
+        }
+
+        [AttachedPropertyBrowsableForType(typeof(TextBox))]
+        public static void SetIsFocusSelect(DependencyObject obj, bool value)
+        {
+            obj.SetValue(IsFocusSelectProperty, value);
+        }
+
+        // Trueだとフォーカス取得時にテキストの全選択を行う  
+        public static readonly DependencyProperty IsFocusSelectProperty =
+            DependencyProperty.RegisterAttached("IsFocusSelect", typeof(bool), typeof(TextBoxBehaviors), new UIPropertyMetadata(false, IsFocusSelectChanged));
+
+        private static void IsFocusSelectChanged(DependencyObject sender, DependencyPropertyChangedEventArgs e)
+        {
+            var textBox = sender as TextBox;
+            if (textBox == null) return;
+
+            // 設定された値を見てイベントを登録・削除  
+            var newValue = (bool)e.NewValue;
+            var oldValue = (bool)e.OldValue;
+            if (oldValue) {
+                textBox.GotFocus -= textBox_GotFocus;
+            }
+            if (newValue) {
+                textBox.GotFocus += textBox_GotFocus;
+            }
+        }
+
+        static void textBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            var textBox = sender as TextBox;
+            if (textBox == null) return;
+
+            // もとの参考ソースはディレイをかけてクリック時にも選択されるようにしていたようだが、余り上手く行っていない
+            // ・非同期にすることで選択されやすくはなっているが、ディレイは意味がない
+            textBox.Dispatcher.InvokeAsync(() => {
+                //Task.Delay(0).Wait();
+                textBox.SelectAll();
+            });
+
+            /*
+            var textBox = sender as TextBox;
+            if (textBox == null) return;
+            // フォーカスがきたら選択  
+            textBox.SelectAll();
+            */
+        }
+    }
+}

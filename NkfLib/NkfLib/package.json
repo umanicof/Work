@@ -1,0 +1,16 @@
+{
+  "name": "umanicof.nkflib",
+  "version": "1.0.0",
+  "displayName": "NkfLib",
+  "description": "NkfLib",
+  "unity": "2022.1",
+  "dependencies": {
+  },
+  "dependencies_comment": {
+    "//": "UniRxにmanifest.jsonがなく認識できない",
+    "com.neuecc.unirx": "1.0.0",
+    "///": "Unityでバージョン違いなどで問題が出る",
+    "org.nuget.newtonsoft.json": "1.0.0"
+  }
+
+}

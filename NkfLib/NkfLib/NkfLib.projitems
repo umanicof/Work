@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>1be11261-6645-49d9-9496-1a9d725087cd</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NkfLib</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Source\ApplicationInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\BindableBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\DebugLog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\IReady.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Polling.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Calculator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Cipher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\DebugTimer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\LanguageDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\DisposePattern.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\DateTimeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\DictionaryExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\EnumExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\ExceptionExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\IListExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\ListExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\ObjectExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\ObservableCollectionExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\UriExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Extensions\WeakReferenceExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\GroupingDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\ITranslator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Localizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\SemaphoreEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\SingleObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Singleton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\DynamicXmlSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\DictionaryXmlSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\StringCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\TaskEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\DynamicUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\JsonUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\_Setting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Timer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\Base64Util.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\FileIOUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Utils\Util.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Source\Wait.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Source\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)NkfLib.asmdef" />
+  </ItemGroup>
+</Project>

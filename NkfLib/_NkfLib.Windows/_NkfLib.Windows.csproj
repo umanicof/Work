@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>NkfLib</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\NkfLib.Windows\NkfLib.Windows.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib\NkfLib.projitems" Label="Shared" />
+
+  <Import Project="..\NkfLib.Core\NkfLib.Core.projitems" Label="Shared" />
+
+  <ItemGroup>
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="ReactiveProperty" Version="9.8.0" />
+  </ItemGroup>
+
+</Project>
