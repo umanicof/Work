@@ -5,20 +5,20 @@
 ・共有プロジェクトはアンダーバー無し（NkfLibなど）。クラスライブラリはアンダーバー有り（_NkfLib）。
 ・クラスライブラリは主にビルドテスト用
 ・共有プロジェクト
-　namespaceは NkfLib に統一。
+　namespaceは NkfLib に統一。プラットフォームごとに異なる共有プロジェクトを参照する想定。
 　各共有プロジェクトで同名のpartialなクラスが存在する。
 　NkfLib ...................... 共通ライブラリ。全てのライブラリはこれが必要。（.NET Standard2.1）
-　NkfLib.DeepL ................ DeepL用ライブあり（.NET Standard2.1）
+　NkfLib.DeepL ................ DeepL用ライブラリ（.NET Standard2.1）
 　NkfLib.Unity ................ Unity用ライブラリ（.NET Standard2.1）
 　NkfLib.Core ................. .NET(旧.NET Core)用ライブラリ
 　NkfLib.Windows .............. Windows（7以降）用（主にUI、WPF絡み）のライブラリ。
-　　　　　　　　　　　　　　　　プロジェクト設定：UseWindowsForms, UseWPF
+　　　　　　　　　　　　　　　　　 プロジェクト設定：UseWindowsForms, UseWPF
 　NkfLib.Windows10 ............ Windows10用のライブラリ。Windows10以降の機能が必要なもののみ。
-　　　　　　　　　　　　　　　　プロジェクト設定：UseWindowsForms, UseWPF
+　　　　　　　　　　　　　　　　   プロジェクト設定：UseWindowsForms, UseWPF
 　NkfLib.Windows.FontLoader ... Windows用ライブラリのグリフ情報読み込み。縦書き対応などに使用
-　　　　　　　　　　　　　　　　パッケージ：WaterTrans.TypeLoader
+　　　　　　　　　　　　　　　　  パッケージ：WaterTrans.TypeLoader
 　NkfLib.Windows.NAudio ....... NAudio関連のライブラリ。
-　　　　　　　　　　　　　　　　パッケージ：NAudio
+　　　　　　　　　　　　　　　　  パッケージ：NAudio
 ・Unityで使用するために.NET Standard2.1を最下層のライブラリ（NkfLib）とする。手動でC#9.0を有効にしている
 　=> 最新ではC#10.0まで行ける？
 ・Newtonsoft.Jsonを使用するライブラリは分けた方が良さげ
