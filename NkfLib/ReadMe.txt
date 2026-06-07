@@ -5,7 +5,7 @@
 ・共有プロジェクトはアンダーバー無し（NkfLibなど）。クラスライブラリはアンダーバー有り（_NkfLib）。
 ・クラスライブラリは主にビルドテスト用
 ・共有プロジェクト
-　フレームワークは.NET5、namespaceは NkfLib に統一。
+　namespaceは NkfLib に統一。
 　各共有プロジェクトで同名のpartialなクラスが存在する。
 　NkfLib ...................... 共通ライブラリ。全てのライブラリはこれが必要。（.NET Standard2.1）
 　NkfLib.DeepL ................ DeepL用ライブあり（.NET Standard2.1）
